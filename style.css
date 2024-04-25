@@ -4,11 +4,10 @@
 * {
     padding: 0px;
     margin: 0px;
-    
 }
 
 .fundo {
-    background-color: #c880da;
+    background-color: #EC9B02;
     padding-top: 30px;
     padding-left: 50px;
     padding-bottom: 30px;
@@ -48,6 +47,10 @@ header {
     font-family: "Open sans";
     font-weight: 600;
     
+}
+.creditos a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .autor  {
@@ -141,29 +144,26 @@ header .links {
     width: 1000;
     margin-left: 20px;
     margin-right: 20px;
-
 }
 
 .textos {
-    font-family: "Patrick hand";
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 1000;
-    margin-left: 20px;
-    margin-right: 20px;
 }
- 
 
 .objeto {
-  
     padding: 50px 30px;
-
 }
 
 .objeto a {
-    
+    margin-top: 5px;
     text-decoration: none;
     color: black;
     padding: 5px;
