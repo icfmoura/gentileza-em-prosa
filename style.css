@@ -24,13 +24,18 @@
 header {
     font-family: "open sans";
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     height: 80px;
     width: 1000;
     margin-left: 20px;
     margin-right: 20px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+
+header span {
+    height: 50px;
+    width: 300px;
 }
 
 .creditos {
@@ -133,6 +138,9 @@ header .links {
 
 /* sessões*/ 
 
+.separador {
+    margin: 0px 50px;
+}
 .sessao {
     font-family: "open sans";
     font-weight: 300;
