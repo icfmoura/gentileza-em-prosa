@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     padding: 0px;
@@ -6,60 +7,140 @@
     
 }
 
+.fundo {
+    background-color: #c880da;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+
+.centro {
+    background-color: rgb(244, 244, 244);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(154, 153, 153);
+}
+
+/* header*/ 
 header {
-    font-family: "Patrick hand";
-    background-color: #734022;
+    font-family: "open sans";
     display: flex;
-    align-items:  center;
-    text-shadow: 2px 2px 5px black;
+    align-items: center;
+    height: 80px;
+    width: 1000;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .creditos {
     padding: 5px;
-    color: white;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    display: flex;
     justify-self: start;
+    flex-direction: column;
 }
 
 .nome {
     padding: 0px 10px;
+    font-family: "Open sans";
+    font-weight: 600;
+    
 }
 
 .autor  {
-    padding-top: 0px;
-    padding-left: 95px;
-    padding-bottom: 5px;
-    padding-right: 0px;
+    display: flex;
+    justify-content: end;
+    padding-right: 11px;
 }
 
 
 header .links {
     display: flex;
-    align-items: center;
+    align-self: center;
 }
 
 .links a {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "open sans";
+    font-weight: 300;
     padding: 10px;
     text-decoration: none;
-    color: azure;
+    color: rgb(0, 0, 0);
 }
 
 .links a:hover {
     color: #F2CB07;
 }
 
-.separador {
-    background-color: #734022;
-    height: 0.1px;
-    margin: 10px;
+/*Banner*/ 
+
+.banner {
+    height: 600px;
+    width: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: flex;
+
 }
 
+.banner h2 {
+    font-size: 50px;
+    height: 150px;
+    width: 400px;
+    padding: 50px;
+}
+
+.banner .perfil {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 550px;
+}
+
+.banner h3 {
+    justify-content: end;
+    padding:0px;
+    margin: 10px;
+    width: 390px;
+    align-self: end;
+}
+
+.citacao {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.banner .citacao aside {
+    align-self: end;
+    justify-content: start;
+}
+
+
+.perfil {
+    height: px;
+}
+
+/* sessões*/ 
+
 .sessao {
-    font-family: "Patrick hand";
+    font-family: "open sans";
+    font-weight: 300;
+    font-size: 30px;
     padding-top: 20px;
     padding-left: 50px;
-    color: #734022;
-    text-shadow: 1px 2px 5px rgb(120, 50, 50);
+    color: #000000;
+    height: 80px;
+    width: 1000;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -68,14 +149,21 @@ header .links {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 500px;
+    width: 1000;
+    margin-left: 20px;
+    margin-right: 20px;
 }
  
 
 .objeto {
+  
     padding: 50px 30px;
+
 }
 
 .objeto a {
+    
     text-decoration: none;
     color: black;
     padding: 5px;
@@ -94,10 +182,9 @@ header .links {
 }
 
 .artigo {
-    font-family: "Patrick hand";
-    background-color: rgb(255, 255, 255);
+    font-family: "open sans";
     height: 600px;
-    width: 950px;
+    width: 1100px;
     text-align: justify;
     margin-top: 100px;
     margin-left: 200px;
@@ -105,10 +192,36 @@ header .links {
     padding: 10px;
 }
 
-.artigo p {
-    font-size: 20px;
+.corpo {
+    height: 500px;
+    font-size: 18px;
     color:#000000;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    text-indent: 30px;
 }
+
+.titulo {
+    height: 100px;
+    width:200px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.artigo {
+    display: flex;
+}
+
+.imagem {
+    height: 400px;
+}
+
+.conjunto {
+    flex-direction: column;
+}
+
+/*Footer ---------------------------------------------------------------------------------------*/ 
 
 footer {
     background-color: black;
@@ -120,31 +233,5 @@ footer {
 footer p {
     text-align: center;
     padding-top: 150px;
-}
-
-.artigo {
-    display: flex;
-}
-
-.imagem {
-    height: 400px;
-}
-
-.titulo { 
-    width:250px;
-    height: 20px;
-    padding-left: 50px;
-}
-
-.corpo {
-    width: 500px;
-    height: 400px;
-    padding-top: 40px;
-    padding-left: 50px;
-    text-indent: 30px;
-}
-
-.conjunto {
-    flex-direction: column;
 }
 
