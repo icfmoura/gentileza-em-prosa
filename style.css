@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+header {
+    font-family: "Patrick hand";
+    background-color: #734022;
+    display: flex;
+    align-items:  center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.creditos {
+    padding: 5px;
+    color: white;
+    justify-self: start;
+}
+
+.nome {
+    padding: 0px 10px;
+}
+
+.autor  {
+    padding-top: 0px;
+    padding-left: 95px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+}
+
+
+header .links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: azure;
+}
+
+.links a:hover {
+    color: #F2CB07;
+}
+
+.separador {
+    background-color: #734022;
+    height: 0.1px;
+    margin: 10px;
+}
+
+.sessao {
+    font-family: "Patrick hand";
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #734022;
+    text-shadow: 1px 2px 5px rgb(120, 50, 50);
+
+}
+
+.textos {
+    font-family: "Patrick hand";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.objeto {
+    padding: 50px 30px;
+}
+
+.objeto a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.objeto a:hover {
+    color: #F2CB07;
+}
+ 
+.objeto a:visited {
+    text-decoration: none;
+}
+
+.textos div img:hover {
+    opacity: 70%;
+}
+
+.artigo {
+    font-family: "Patrick hand";
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 950px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.artigo p {
+    font-size: 20px;
+    color:#000000;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.artigo {
+    display: flex;
+}
+
+.imagem {
+    height: 400px;
+}
+
+.titulo { 
+    width:250px;
+    height: 20px;
+    padding-left: 50px;
+}
+
+.corpo {
+    width: 500px;
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 50px;
+    text-indent: 30px;
+}
+
+.conjunto {
+    flex-direction: column;
+}
+
