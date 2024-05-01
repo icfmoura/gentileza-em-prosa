@@ -18,15 +18,16 @@
     background-color: rgb(244, 244, 244);
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.443);
+    min-width: 320px;
+    max-width: 2000px;
 }
 
-/* header*/ 
+/* header ----------------------------------------------------------------------*/ 
 header {
     font-family: "open sans";
     display: flex;
     justify-content: space-between;
     height: 80px;
-    width: 1000;
     margin-left: 20px;
     margin-right: 20px;
     border-top-right-radius: 10px;
@@ -38,7 +39,7 @@ header span {
     width: 300px;
 }
 
-.creditos {
+.logo {
     padding: 5px;
     margin-top: 10px;
     color: rgb(0, 0, 0);
@@ -53,7 +54,7 @@ header span {
     font-weight: 600;
     
 }
-.creditos a {
+.logo a {
     text-decoration: none;
     color: #000000;
 }
@@ -65,12 +66,13 @@ header span {
 }
 
 
-header .links {
+header .menu {
     display: flex;
     align-self: center;
+    flex-wrap: wrap;
 }
 
-.links a {
+.menu a {
     font-size: 18px;
     font-family: "open sans";
     font-weight: 300;
@@ -79,44 +81,44 @@ header .links {
     color: rgb(0, 0, 0);
 }
 
-.links a:hover {
+.menu a:hover {
     color: #F2CB07;
 }
 
-/*Banner*/ 
+/*Banner ----------------------------------------------------------------------------*/ 
 
 .banner {
     height: 600px;
-    width: 1000;
+    min-width: 320px;
+    max-width: 2000px;
+
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
+
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
     display: flex;
-
 }
 
 .banner h2 {
-    font-size: 50px;
-    height: 150px;
-    width: 400px;
-    padding: 50px;
+    font-size: 35px;
+    padding-top: 40px;
+    min-width: 200px;
+    max-width: 400px;
 }
 
-.banner .perfil {
+.foto {
     display: flex;
     align-self: center;
     justify-content: center;
-    height: 550px;
 }
 
 .banner h3 {
     justify-content: end;
     padding:0px;
     margin: 10px;
-    width: 390px;
     align-self: end;
 }
 
@@ -131,16 +133,14 @@ header .links {
     justify-content: start;
 }
 
-
-.perfil {
-    height: px;
-}
-
-/* sessões*/ 
+/*sessões -------------------------------------------------------------------------*/ 
 
 .separador {
     margin: 0px 50px;
 }
+
+/*PAGINA DE TEXTOS -------------------------------------------------------------*/
+
 .sessao {
     font-family: "open sans";
     font-weight: 300;
@@ -149,6 +149,7 @@ header .links {
     padding-left: 50px;
     color: #000000;
     height: 50px;
+
     margin-top: 50px;
     margin-left: 20px;
     margin-bottom: 0px;
@@ -159,36 +160,66 @@ header .links {
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 18px;
+
+
     margin-left: 20px;
     margin-right: 20px;
+
     display: flex;
+    flex-wrap: wrap;
+
     align-items: center;
     justify-content: center;
 }
 
-.objeto {
+#reverse {
+    flex-direction: row-reverse;
+}
+
+#reverse div p{
+    text-align: end;
+}
+#reverse div .capaTitulo {
+    justify-content: end;
+}
+
+.capa {
+    display: flex;
+}
+
+.tituloCorpo {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.capaTitulo {
     padding: 50px 30px;
 }
 
-.objeto a {
+.capaTitulo a {
     margin-top: 5px;
     text-decoration: none;
     color: black;
     padding: 5px;
 }
 
-.objeto a:hover {
+.capaTitulo a:hover {
     color: #F2CB07;
 }
  
-.objeto a:visited {
+.capaTitulo a:visited {
     text-decoration: none;
 }
 
-.textos div img:hover {
+
+.textos .capa img:hover {
     opacity: 70%;
 }
 
+/* PAGINA DO TEXTO*/
 .artigo {
     font-family: "open sans";
     height: 600px;
@@ -242,4 +273,3 @@ footer p {
     text-align: center;
     padding-top: 150px;
 }
-
