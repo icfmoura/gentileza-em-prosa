@@ -109,7 +109,7 @@ header .menu {
     max-width: 400px;
 }
 
-.foto {
+.foto_banner {
     display: flex;
     align-self: center;
     justify-content: center;
@@ -141,7 +141,7 @@ header .menu {
 
 /*PAGINA DE TEXTOS -------------------------------------------------------------*/
 
-.sessao {
+.nome_da_sessao {
     font-family: "open sans";
     font-weight: 300;
     font-size: 30px;
@@ -156,7 +156,7 @@ header .menu {
     margin-right: 20px;
 }
 
-.textos {
+.todos_os_textos {
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 18px;
@@ -179,7 +179,7 @@ header .menu {
 #reverse div p{
     text-align: end;
 }
-#reverse div .capaTitulo {
+#reverse div .capa_e_titulo {
     justify-content: end;
 }
 
@@ -187,7 +187,7 @@ header .menu {
     display: flex;
 }
 
-.tituloCorpo {
+.titulo_e_paragrafo {
     display: flex;
     flex-direction: column;
 
@@ -195,27 +195,27 @@ header .menu {
     margin-right: 20px;
 }
 
-.capaTitulo {
+.capa_e_titulo {
     padding: 50px 30px;
 }
 
-.capaTitulo a {
+.capa_e_titulo a {
     margin-top: 5px;
     text-decoration: none;
     color: black;
     padding: 5px;
 }
 
-.capaTitulo a:hover {
+.capa_e_titulo a:hover {
     color: #F2CB07;
 }
  
-.capaTitulo a:visited {
+.capa_e_titulo a:visited {
     text-decoration: none;
 }
 
 
-.textos .capa img:hover {
+.textos_em_destaque .capa img:hover {
     opacity: 70%;
 }
 
@@ -240,6 +240,7 @@ header .menu {
     padding-bottom: 0px;
     text-indent: 30px;
 }
+
 
 .titulo {
     height: 100px;
