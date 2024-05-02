@@ -14,7 +14,7 @@
     padding-right: 50px;
 }
 
-.centro {
+.corpo_principal {
     background-color: rgb(244, 244, 244);
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.443);
@@ -109,7 +109,7 @@ header .menu {
     max-width: 400px;
 }
 
-.foto_banner {
+.foto_perfil {
     display: flex;
     align-self: center;
     justify-content: center;
@@ -139,9 +139,9 @@ header .menu {
     margin: 0px 50px;
 }
 
-/*PAGINA DE TEXTOS -------------------------------------------------------------*/
+/*TEXTOS EM DESTAQUE / PAGINA PRINCIPAL -------------------------------------------------------------*/
 
-.nome_da_sessao {
+.sessao {
     font-family: "open sans";
     font-weight: 300;
     font-size: 30px;
@@ -156,7 +156,7 @@ header .menu {
     margin-right: 20px;
 }
 
-.todos_os_textos {
+.textos_em_destaque {
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 18px;
@@ -172,20 +172,6 @@ header .menu {
     justify-content: center;
 }
 
-#reverse {
-    flex-direction: row-reverse;
-}
-
-#reverse div p{
-    text-align: end;
-}
-#reverse div .capa_e_titulo {
-    justify-content: end;
-}
-
-.capa {
-    display: flex;
-}
 
 .titulo_e_paragrafo {
     display: flex;
@@ -219,8 +205,9 @@ header .menu {
     opacity: 70%;
 }
 
-/* PAGINA DO TEXTO*/
-.artigo {
+/* PAGINA DO TEXTO COMPLETO ----------------------------------------------------------------------*/
+
+.conjunto_capa_titulo_texto {
     font-family: "open sans";
     height: 600px;
     width: 1100px;
@@ -231,7 +218,7 @@ header .menu {
     padding: 10px;
 }
 
-.corpo {
+.texto {
     height: 500px;
     font-size: 18px;
     color:#000000;
@@ -241,7 +228,6 @@ header .menu {
     text-indent: 30px;
 }
 
-
 .titulo {
     height: 100px;
     width:200px;
@@ -249,17 +235,52 @@ header .menu {
     padding-left: 50px;
 }
 
-.artigo {
+.conjunto_capa_titulo_texto {
     display: flex;
 }
 
-.imagem {
+.imagem_do_artigo {
     height: 400px;
 }
 
 .conjunto {
     flex-direction: column;
 }
+
+.titulo_texto {
+    padding: 2px 17px;
+}
+
+.titulo_texto a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.titulo_texto a:hover {
+    color: #F2CB07;
+}
+ 
+.titulo_texto a:visited {
+    text-decoration: none;
+}
+
+#reverse {
+    flex-direction: row-reverse;
+}
+
+#reverse div p{
+    text-align: end;
+}
+#reverse div .capa_e_titulo {
+    justify-content: end;
+}
+
+.capa {
+    display: flex;
+}
+
 
 /*Footer ---------------------------------------------------------------------------------------*/ 
 
