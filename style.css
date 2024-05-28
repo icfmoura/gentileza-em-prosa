@@ -33,10 +33,7 @@ header {
 
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-
 }
-
-
 
 .logo {
     padding: 5px;
@@ -90,7 +87,7 @@ header {
 /*Banner ----------------------------------------------------------------------------*/ 
 
 .banner {
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1800px;
 
     min-height: 700px;
@@ -108,13 +105,11 @@ header {
 
     align-items: center;
     justify-content: center;
-
 }
 
 .banner h2 {
     font-size: 35px;
     padding-top: 40px;
-
 
     min-width: 200px;
     max-width: 400px;
